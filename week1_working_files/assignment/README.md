@@ -54,9 +54,7 @@ For the first assignment, you will begin creating the beginnings of your first w
 
 ###Resources
 
-- NOTE: There is **no starter code** for this assignment (only starter text), but a **sample** solution is [provided](solution).  Students will build this assignment from scratch and should feel free to get creative with regard to layout, color, styling, etc.
-
-- Slides from [class 1](../01_html_basics/slides.md) and [class 2](../02_css_basics/slides.md).
+- NOTE: There is **no starter code** for this assignment (only starter text).  Students will build this assignment from scratch and should feel free to get creative with regard to layout, color, styling, etc.
 
 Here are examples of a simple "About" and "Portfolio" page that fulfill the assignment requirements:
 
@@ -75,4 +73,10 @@ Here are examples of a simple "About" and "Portfolio" page that fulfill the assi
 
 ###Evaluation / Submission
 
-Students will create a new repository on GitHub called "homework-portfolio" and push their code to this new repository when they are ready to submit. The instructional team will grade each technical requirement and provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2).  The maximum possible score on this assignment is 16/16.
+Work inside your *[home]/FEWD/FEWD_Week1/assignment* folder. Sync the *FEWD_Week1* repository using GitHub Desktop when you are ready to submit. You will be graded for each technical requirement. We will provide a numeric grade on a scale:
+
+* does not meet expectations (0)
+* meets expectations (1)
+* exceeds expectations (2)
+
+The maximum possible score on this assignment is 16/16.
