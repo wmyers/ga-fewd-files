@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  font-family: Helvetica;
+}
+
+/*text styles*/
+
+h2 {
+  color: white;
+  background-color: teal;
+  padding: 10px 20px;
+}
+
+h3, p {
+  padding-left: 20px;
+}
+
+h4 {
+  color: white;
+  padding-left: 20px;
+}
+
+/*toggle this to just see the images*/
+pre {
+  /*display:none;*/
+}
+
+/*centered background image styles*/
+
+.centered-xlarge-bg-image{
+  height: 700px;
+  background: url(images/boat_on_water_xl.jpg) no-repeat top center #131e27;
+}
+
+.centered-large-bg-image{
+  height: 467px;
+  background: url(images/boat_on_water_l.jpg) no-repeat top center #131e27;
+}
+
+.centered-medium-bg-image{
+  height: 234px;
+  background: url(images/boat_on_water_m.jpg) no-repeat top center #131e27;
+}
+
+.centered-small-bg-image{
+  height: 117px;
+  background: url(images/boat_on_water_s.jpg) no-repeat top center #131e27;
+}
+
+.centered-xsmall-bg-image{
+  height: 59px;
+  background: url(images/boat_on_water_xs.jpg) no-repeat top center #131e27;
+}
+
+/*scaled background image styles*/
+
+.scaled-bg-image-cover{
+  height: 700px;
+  /*
+    NB the background-size shorthand has to come directly after the
+    background-position shorthand, with a '/' divider.
+    Alternatively declare the background-size seperately on the next line.
+  */
+  background: url(images/boat_on_water_l.jpg) no-repeat top center / cover #131e27;
+}
+
+.scaled-bg-image-contain{
+  height: 467px;
+  background: url(images/boat_on_water_m.jpg) no-repeat top center / contain #131e27;
+}
+
+/*centered overlay container*/
+
+.centered-medium-overlay-container{
+  /*set the width to the width of the medium image */
+  width: 400px;
+  /*setting the margin-left and margin-right to 'auto' will center this element in its parent container*/
+  margin: 0 auto;
+}
+
+/*centered text*/
+
+.simple-centered-text {
+  text-align: center;
+}

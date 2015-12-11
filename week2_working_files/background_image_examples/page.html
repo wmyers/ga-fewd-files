@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Web page H5</title>
+  <link rel="stylesheet" type="text/css" href="page.css">
+</head>
+
+<body>
+  <p>Read the MDN page at: <a href="https://developer.mozilla.org/en/docs/Web/CSS/background">https://developer.mozilla.org/en/docs/Web/CSS/background</a></p>
+
+  <h2>Centered background images with default color</h2>
+  <section>
+    <h3>
+      <pre>background: url(images/boat_on_water_xl.jpg) no-repeat top center #131e27;</pre>
+    </h3>
+    <article class="centered-xlarge-bg-image" />
+  </section>
+  <section>
+    <h3>
+      <pre>background: url(images/boat_on_water_l.jpg) no-repeat top center #131e27;</pre>
+    </h3>
+    <article class="centered-large-bg-image" />
+  </section>
+  <section>
+    <h3>
+      <pre>background: url(images/boat_on_water_m.jpg) no-repeat top center #131e27;</pre>
+    </h3>
+    <article class="centered-medium-bg-image" />
+  </section>
+  <section>
+    <h3>
+      <pre>background: url(images/boat_on_water_s.jpg) no-repeat top center #131e27;</pre>
+    </h3>
+    <article class="centered-small-bg-image" />
+  </section>
+  <section>
+    <h3>
+      <pre>background: url(images/boat_on_water_xs.jpg) no-repeat top center #131e27;</pre>
+    </h3>
+    <article class="centered-xsmall-bg-image" />
+  </section>
+
+  <h2>Scaled background images</h2>
+
+  <section>
+    <h3>
+      <pre>background: url(images/boat_on_water_l.jpg) no-repeat top center / cover #131e27;</pre>
+    </h3>
+    <article class="scaled-bg-image-cover"/>
+  </section>
+
+  <section>
+    <h3>
+      <pre>background: url(images/boat_on_water_m.jpg) no-repeat top center / contain #131e27;</pre>
+    </h3>
+    <article class="scaled-bg-image-contain"/>
+  </section>
+
+  <h2>Centered background image with overlay text</h2>
+
+  <section>
+    <article class="centered-medium-bg-image">
+      <div class="centered-medium-overlay-container">
+        <h4>Hello</>
+      </div>
+      <h4 class="simple-centered-text">Hello</h4>
+    </article>
+  </section>
+</body>
+
+</html>
