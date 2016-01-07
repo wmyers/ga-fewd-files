@@ -1,0 +1,24 @@
+html {
+  font-family: sans-serif;
+  font-size: 0.625em; /* default body size now converted from 16px to 10px*/
+}
+
+div {
+  margin: 40px 0;
+}
+
+.parent {
+  font-size: 1.5em; /*15px*/
+}
+
+.child-1 {
+  /* nothing */
+}
+
+.child-2 {
+  font-size: 1.5em;/* this value will compound the parent value - 1.5 * 15px = 22.5px*/
+}
+
+.child-3 {
+  font-size: 1.5rem; /* using rem will avoid the compound problem */
+}

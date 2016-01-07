@@ -1,0 +1,36 @@
+html, body {
+  font-family: sans-serif;
+}
+
+header {
+  background: red;
+  width: 100%;
+}
+main {
+  display: flex;
+}
+.content {
+  background: yellow;
+  display: flex;
+  flex: 1;
+}
+.sidebar {
+  background: green;
+  display: flex;
+  flex: 0 200px;
+}
+footer {
+  background: blue;
+  width: 100%;
+}
+
+.placeholder {
+  background: rgba(255,255,255,.5);
+  padding: 20px;
+  min-height: 40px;
+}
+
+.sidebar .placeholder, .content .placeholder{
+  min-height: 240px;
+  width:100%
+}

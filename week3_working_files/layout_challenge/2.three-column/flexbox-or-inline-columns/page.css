@@ -1,0 +1,50 @@
+html, body {
+  font-family: sans-serif;
+}
+
+/*Default inline column styles*/
+/*https://davidwalsh.name/remove-whitespace-inline-block*/
+main {
+  width: 100%;
+  font-size: 0;
+}
+.content, .sidebar {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+.content {
+  width: 60%;
+}
+.sidebar {
+  width: 20%;
+}
+
+/*Flexbox detection with Modernizr*/
+.flexbox.flexwrap main {
+  display: flex;
+}
+
+.flexbox.flexwrap .content {
+  display: flex;
+  flex: 1;
+}
+
+.flexbox.flexwrap .sidebar {
+  display: flex;
+  flex: 0 200px;
+}
+
+
+.placeholder {
+  background: rgba(100,100,100,.5);
+  border: 5px solid white;
+  padding: 20px;
+  min-height: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.sidebar, .content{
+  min-height: 240px;
+}

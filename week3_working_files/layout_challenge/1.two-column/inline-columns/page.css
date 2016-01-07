@@ -1,0 +1,43 @@
+html, body {
+  font-family: sans-serif;
+}
+
+header {
+  background: red;
+  width: 100%;
+}
+
+/*https://davidwalsh.name/remove-whitespace-inline-block*/
+main {
+  width: 100%;
+  font-size: 0;
+}
+.content {
+  background: yellow;
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+.sidebar {
+  background: green;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+footer {
+  background: blue;
+  width: 100%;
+}
+
+.placeholder {
+  background: rgba(255,255,255,.5);
+  padding: 20px;
+  min-height: 40px;
+}
+
+.sidebar .placeholder, .content .placeholder{
+  min-height: 240px;
+}

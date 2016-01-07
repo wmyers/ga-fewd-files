@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Font sizes</title>
+  <link rel="stylesheet" type="text/css" href="page.css">
+</head>
+
+<body>
+
+  <div class="parent">
+    I'm text in the parent container at 15px (16px * 0.625 * 1.5). Check me in the 'Computed' tab in Chrome Dev Tools.
+
+    <div class="child-1">
+      I'm in child-1, with no other font-size property. So I'm the same as the parent.
+    </div>
+
+    <div class="child-2">
+      I'm in child-2, with another font-size property of 1.5em. So I've compounded the values and scaled up to 22.5px (16px * 0.625 * 1.5 * 1.5).
+    </div>
+
+    <div class="child-3">
+      I'm in child-3, with another font-size property of 1.5<em>rem</em>. This keeps me relative to the root &lt;html&gt;, so I'm still the same size as the parent.
+    </div>
+
+  </div>
+
+</body>
+
+</html>

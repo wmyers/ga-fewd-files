@@ -1,0 +1,34 @@
+html, body {
+  font-family: sans-serif;
+}
+
+header {
+  background: red;
+  float: left;
+  width: 100%;
+}
+.content {
+  background: yellow;
+  float: left;
+  width: 60%;
+}
+.sidebar {
+  background: green;
+  float: right;
+  width: 40%;
+}
+footer {
+  background: blue;
+  float: left;
+  width: 100%;
+}
+
+.placeholder {
+  background: rgba(255,255,255,.5);
+  padding: 20px;
+  min-height: 80px;
+}
+
+.sidebar .placeholder, .content .placeholder{
+  min-height: 240px;
+}
