@@ -1,0 +1,63 @@
+html, body {
+  font-family: sans-serif;
+}
+
+/*header*/
+header {
+  display: flex;
+}
+
+header .card {
+  display: flex;
+  flex: 0 300px;
+}
+
+header nav {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  border: 5px solid white;
+}
+
+header nav a {
+  display: flex;
+  background: rgba(100,100,100,.5);
+  padding: 15px 30px;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+
+/*main*/
+main {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+}
+
+.sidebar {
+  display: flex;
+  flex: 0 100px;
+}
+
+.content-row{
+  display: flex;
+  flex: 1;
+}
+
+.placeholder {
+  background: rgba(100,100,100,.5);
+  border: 5px solid white;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.sidebar, .content{
+  min-height: 240px;
+}

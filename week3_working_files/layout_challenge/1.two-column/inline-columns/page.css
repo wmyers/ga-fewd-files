@@ -11,20 +11,29 @@ header {
 main {
   width: 100%;
   font-size: 0;
+
+  /*setting a greater line-height in the container will allow for vertical-aligning with the children*/
+  /*line-height: 180px;*/
+
+  height: 180px;
+  background: teal;
+}
+main > * {
+  display: inline-block;
+
+  /*required if one column is taller than another*/
+  vertical-align: top;
+
+  font-size: 16px;
+
+  /*if setting a greater line-height in the parent, need to reset it in the child*/
+  /*line-height: 20px;*/
 }
 .content {
-  background: yellow;
   width: 60%;
-  display: inline-block;
-  vertical-align: top;
-  font-size: 16px;
 }
 .sidebar {
-  background: green;
   width: 40%;
-  display: inline-block;
-  vertical-align: top;
-  font-size: 16px;
 }
 
 footer {
@@ -36,8 +45,5 @@ footer {
   background: rgba(255,255,255,.5);
   padding: 20px;
   min-height: 40px;
-}
-
-.sidebar .placeholder, .content .placeholder{
-  min-height: 240px;
+  box-sizing: border-box;
 }

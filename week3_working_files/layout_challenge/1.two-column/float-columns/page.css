@@ -19,7 +19,7 @@ header {
 }
 footer {
   background: blue;
-  float: left;
+  clear: left;
   width: 100%;
 }
 
