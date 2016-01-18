@@ -15,8 +15,8 @@ main {
   /*setting a greater line-height in the container will allow for vertical-aligning with the children*/
   /*line-height: 180px;*/
 
-  height: 180px;
-  background: teal;
+  height: 300px;
+  background: yellow;
 }
 main > * {
   display: inline-block;
@@ -42,7 +42,7 @@ footer {
 }
 
 .placeholder {
-  background: rgba(255,255,255,.5);
+  background: rgba(255,255,255,.7);
   padding: 20px;
   min-height: 40px;
   box-sizing: border-box;
