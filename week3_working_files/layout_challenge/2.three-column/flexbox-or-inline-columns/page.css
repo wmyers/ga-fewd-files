@@ -26,12 +26,10 @@ main {
 }
 
 .flexbox.flexwrap .content {
-  display: flex;
   flex: 1;
 }
 
 .flexbox.flexwrap .sidebar {
-  display: flex;
   flex: 0 100px;
 }
 
