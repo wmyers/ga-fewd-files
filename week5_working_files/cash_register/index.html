@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Cash Register</title>
+
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <div id="register">
+    <div id="ticket">
+      <h1>Thank You!</h1>
+
+      <div id="entries"></div>
+      <div class="total">
+        <div>Total</div>
+        <div id="total">$0.00</div>
+      </div>
+
+    </div>
+
+    <!-- A form with only one text <input> will submit when ENTER is key-pressed in that <input> -->
+    <form id="entry">
+      <input id="newEntry" autofocus placeholder="How Much?">
+    </form>
+
+  </div>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
