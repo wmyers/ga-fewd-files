@@ -34,18 +34,24 @@ button:active {
   margin: 0;
   padding: 10px;
 }
-.scoreboard table {
-  margin: 10px auto;
+
+.scores {
   width: 100%;
-  border-collapse: collapse;
+  margin: 10px auto;
+  font-size: 0;
 }
-.scoreboard th, .scoreboard td {
+.scores > * {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  width: 50%;
   text-align: center;
 }
-.scoreboard td {
+
+.scores .score{
   font-size: 3em;
-  padding: 0 20px;
 }
+
 
 #status {
   margin-top: 20px;

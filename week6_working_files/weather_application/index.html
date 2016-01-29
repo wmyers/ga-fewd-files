@@ -20,10 +20,14 @@
   <form>
     <label for="temp">Temperature:</label>
     <input id="temp" type="number" value="20"></input>
-    <button id="submit">Submit</button>
+
+    <!-- NB setting type="button" prevents a form submit auto page refresh -->
+    <button type="button" id="submit">Submit</button>
   </form>
 
-  <div id="imageContainer"></div>
+  <div>
+    <img id="weatherImage">
+  </div>
   <p id="resultMessage"></p>
 
   <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
