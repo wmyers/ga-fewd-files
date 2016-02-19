@@ -1,0 +1,95 @@
+html, body {
+  font-family: sans-serif;
+}
+
+/*header*/
+header {
+  display: flex;
+  /*justify-content: space-between;*/
+  justify-content: flex-end;
+  border: 5px solid black;
+  padding: 5px;
+}
+
+header nav {
+  /*display: flex;*/
+  display: none;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header nav a{
+  flex:0 18%; /*don't grow and set width to 18% to leave space*/
+  margin-right: 5px;
+}
+
+header .menu {
+  background: red;
+  /*display: none;*/
+}
+
+/*main*/
+main {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+}
+
+.content-row{
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.four-sub-boxes{
+  display:flex;
+  /*justify-content: space-between;*/
+  justify-content: flex-start;
+  /*align-items: center;*/
+  align-items: stretch;
+
+  flex-flow: column;
+}
+
+.four-sub-boxes article{
+  /*flex:0 20%; /*don't grow and set width to 20% to leave space*/
+  flex:1 auto;
+
+  margin-bottom: 5px;
+}
+
+.three-sub-boxes{
+  display:flex;
+  /*justify-content: space-around;*/
+  justify-content: flex-start;
+  /*align-items: center;*/
+  align-items: stretch;
+
+  flex-flow: column;
+
+  border: 5px solid black;
+  padding: 10px;
+}
+
+.three-sub-boxes article{
+  /*flex:0 25%; /*don't grow and set width to 25% to leave space*/
+
+  flex:1 auto;
+
+  margin-bottom: 5px;
+}
+
+/*box placeholder style*/
+.placeholder {
+  background: rgba(100,100,100,.5);
+  padding: 20px;
+  box-sizing: border-box;
+  height: 120px;
+  line-height: 80px;
+  text-align: center;
+}
+
+header .placeholder {
+  height: auto;
+  line-height: inherit;
+}
